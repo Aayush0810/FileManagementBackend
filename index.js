@@ -7,7 +7,7 @@ require("dotenv").config();
 
 const app = express();
 app.use(express.json());
-app.use(cors({ credentials: true, origin: "https://file-management-vlda.vercel.app/" }));
+app.use(cors());
 
 const userRouter = require("./Routes/UserRoute")
 const FileRoute = require("./Routes/FileRoute")
