@@ -6,8 +6,8 @@ const multer = require("multer");
 
 const region = process.env.NEXT_PUBLIC_AWS_REGION;
 const bucketName = process.env.NEXT_PUBLIC_AWS_BUCKET_NAME;
-const accessKeyId = process.env.AWS_ACCESS_KEY_ID;
-const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY;
+const accessKeyId = process.env.AWS_ACCESS_KEY_IDS;
+const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEYS;
 const s3 = new S3Client({
   credentials: {
   accessKeyId,

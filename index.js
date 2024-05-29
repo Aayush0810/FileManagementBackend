@@ -11,6 +11,8 @@ app.use(express.json());
 const allowedOrigins = [
   "https://file-management-sooty.vercel.app",
   "https://file-management-soott.vercel.app",
+  "https://file-management-activa.vercel.app",
+  "https://file-management-file.vercel.app",
   "http://localhost:5173",
 ];
 
